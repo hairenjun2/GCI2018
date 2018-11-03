@@ -6,9 +6,9 @@ while ( a < 10 ) :
 name = input("What's your name?\n")
 def reversed_string(a_string):
     return a_string[::-1]
-print ("Hello%s,please to meet you!\n"%name)
+print ("Hello %s, please to meet you!\n"%name)
 name_backward = reversed_string(name)
-print ("Hello%s, please to meet you!"%(name))
-print ("Did you know that your name backwards is%s?"%(name_backward))
+print ("Hello %s, please to meet you!"%(name),end='')
+print ("Did you know that your name backwards is %s?"%(name_backward))
 
   
