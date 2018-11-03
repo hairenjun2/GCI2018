@@ -1,0 +1,14 @@
+import os 
+a = 0
+while ( a < 10 ) : 
+    print ("GCI is great")
+    a = a + 1
+name = input("What's your name?\n")
+def reversed_string(a_string):
+    return a_string[::-1]
+print ("Hello%s,please to meet you!\n"%name)
+name_backward = reversed_string(name)
+print ("Hello%s, please to meet you!"%(name))
+print ("Did you know that your name backwards is%s?"%(name_backward))
+
+  
